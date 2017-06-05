@@ -9,6 +9,7 @@ Some basic tests.
 
 from image_processing import getImage, meanTransform, \
                              detectPattern, vectorizeImage
+import matplotlib.pyplot as plt
 import os
 
 
