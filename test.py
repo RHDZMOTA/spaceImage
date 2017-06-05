@@ -7,7 +7,8 @@ Some basic tests.
 @author Rodrigo Hernandez-Mota
 """
 
-import image_processing as imp
+from image_processing import getImage, meanTransform, \
+                             detectPattern, vectorizeImage
 import os
 
 
